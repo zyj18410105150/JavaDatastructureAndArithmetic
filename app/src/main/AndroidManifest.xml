@@ -27,7 +27,8 @@
         <activity android:name=".DoubleEnd.DoubleEndActivity" />
         <activity android:name=".WellAlignedLinked.WellAlignedActivity" />
         <activity android:name=".DoubleLinkedList.DoubleLinkedListActivity" />
-        <activity android:name=".Iterator.IteratorActivity"></activity>
+        <activity android:name=".Iterator.IteratorActivity" />
+        <activity android:name=".Recursion.RecursionActivity"></activity>
     </application>
 
 </manifest>

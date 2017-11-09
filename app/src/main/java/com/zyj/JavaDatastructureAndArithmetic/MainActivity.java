@@ -16,6 +16,7 @@ import com.zyj.JavaDatastructureAndArithmetic.Iterator.IteratorActivity;
 import com.zyj.JavaDatastructureAndArithmetic.ObjectSort.ObjectSortActivity;
 import com.zyj.JavaDatastructureAndArithmetic.PriorityQueue.PriorityQueueActivity;
 import com.zyj.JavaDatastructureAndArithmetic.Queue.QueueActivity;
+import com.zyj.JavaDatastructureAndArithmetic.Recursion.RecursionActivity;
 import com.zyj.JavaDatastructureAndArithmetic.SelectionSort.SelectionSortActivity;
 import com.zyj.JavaDatastructureAndArithmetic.SingleLinked.SingleLinkedActivity;
 import com.zyj.JavaDatastructureAndArithmetic.Stack.StackxActivity;
@@ -135,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
                     case 15://递归
                         Toast.makeText(MainActivity.this, "递归", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this, RecursionActivity.class));
                         break;
                 }
             }

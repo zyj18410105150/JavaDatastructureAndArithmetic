@@ -20,6 +20,12 @@ public class RecursionActivity extends AppCompatActivity {
      * 存在某个足够简单的问题的层次，在这一层算法不需要调用自己就可以直接解答，
      * 且返回结果
      *
+     * 三角数字
+     * 阶乘
+     * 变位字
+     * 递归的二分查找
+     * 汉诺塔
+     * 归并排序
      * 消除递归
      * 一些有趣的递归应用
      */

@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.zyj.JavaDatastructureAndArithmetic.BubbleSort.BubbleSortActivity;
+import com.zyj.JavaDatastructureAndArithmetic.Divide.DivideActivity;
 import com.zyj.JavaDatastructureAndArithmetic.DoubleEnd.DoubleEndActivity;
 import com.zyj.JavaDatastructureAndArithmetic.DoubleLinkedList.DoubleLinkedListActivity;
 import com.zyj.JavaDatastructureAndArithmetic.InsertionSorting.InsertionSortingActivity;
@@ -18,6 +19,7 @@ import com.zyj.JavaDatastructureAndArithmetic.PriorityQueue.PriorityQueueActivit
 import com.zyj.JavaDatastructureAndArithmetic.Queue.QueueActivity;
 import com.zyj.JavaDatastructureAndArithmetic.Recursion.RecursionActivity;
 import com.zyj.JavaDatastructureAndArithmetic.SelectionSort.SelectionSortActivity;
+import com.zyj.JavaDatastructureAndArithmetic.ShellSort.ShellSortActivity;
 import com.zyj.JavaDatastructureAndArithmetic.SingleLinked.SingleLinkedActivity;
 import com.zyj.JavaDatastructureAndArithmetic.Stack.StackxActivity;
 import com.zyj.JavaDatastructureAndArithmetic.WellAlignedLinked.WellAlignedActivity;
@@ -74,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
     String [] data=new String[]{"简单排序算法","冒泡排序","选择排序","插入排序","对象排序",
             "栈和队列","栈","队列","优先级队列",
             "链表","单链表","双端链表","有序链表","双向链表","迭代器链表",
-            "递归"};
+            "递归",
+            "高级排序","希尔排序","划分","快速排序"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,6 +141,21 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "递归", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(MainActivity.this, RecursionActivity.class));
                         break;
+                    
+                    case 16://高级排序
+                        Toast.makeText(MainActivity.this, "高级排序", Toast.LENGTH_SHORT).show();
+                        break;
+                    case 17://希尔排序
+                        startActivity(new Intent(MainActivity.this, ShellSortActivity.class));
+                        break;
+                    case 18://划分
+                        startActivity(new Intent(MainActivity.this, DivideActivity.class));
+                        break;
+                    case 19://快速排序
+
+                        break;
+
+
                 }
             }
         });

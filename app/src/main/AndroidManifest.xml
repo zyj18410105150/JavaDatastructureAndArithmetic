@@ -28,7 +28,10 @@
         <activity android:name=".WellAlignedLinked.WellAlignedActivity" />
         <activity android:name=".DoubleLinkedList.DoubleLinkedListActivity" />
         <activity android:name=".Iterator.IteratorActivity" />
-        <activity android:name=".Recursion.RecursionActivity"></activity>
+        <activity android:name=".Recursion.RecursionActivity" />
+        <activity android:name=".ShellSort.ShellSortActivity" />
+        <activity android:name=".Divide.DivideActivity" />
+        <activity android:name=".QuickSort.QuickSortActivity"></activity>
     </application>
 
 </manifest>
